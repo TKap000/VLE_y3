@@ -36,3 +36,8 @@ footer {
     margin-top: 60px;
     padding: 5em;
 }
+
+footer img {
+    width: 32px;
+    margin-bottom: 20px;
+}

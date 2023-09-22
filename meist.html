@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content=""> 
         <meta name="author" content="">
-        <title>Ostukorv</title>
+        <title>Meist</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
         <!-- minu CSS -->
@@ -72,121 +72,102 @@
             <nav aria-label="breadcrumb" >
                 <ol class="breadcrumb bg-white my-2">
                     <li class="breadcrumb-item"><a href="index.html">Avaleht</a></li>
-                    <li class="breadcrumb-item active">Ostukorv</li>
+                    <li class="breadcrumb-item active">Meist</li>
                 </ol>
             </nav>
         </section>
-        <!-- ostukorv -->
+
+        <!-- sisu -->
         <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 d-flex align-items-start flex-column">
-                        <div class="mb-auto p-2"><h4>Ostukorvis on 1 toode</h4></div>    
-                        <div class="mb-auto p-2 row">
-                            <div class="col-lg-6">
-                                <img src="soap.png" width="100%">
-                            </div>
-                            <div class="col-lg-6">
-                                <p>15.99&#8364;</p>
-                                <p>Toode 1</p>
-                                    <select class="form-control col-lg-5 form-sm" id="kogus">
-                                        <option>0</option>
-                                        <option selected="selected">1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                    </select>
-                                <br/>
-                            </div>            
-                        </div>
-                        <div class="p-2">
-                            <p>Tarne: <span class="text-primary">tasuta</span></p>
-                            <p>Kokku: <span class="text-primary">15.99&#8364;</span></p>
-                        </div>
-                        <div class="p-2 mx-auto">
-                            <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Maksa</a>
-                        </div>
+            <h2 class="h mb-3">Meist</h2>
+
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        Oleme seebi müügi veebipood, mis pakub kvaliteetseid ja looduslikke seepe igale 
+                        maitsele. Meie missioon on pakkuda oma klientidele parimat võimalikku nahahooldust, 
+                        kasutades selleks ainult puhtaid ja ohutuid koostisosi. Meie seebid on valmistatud 
+                        käsitsi, hoolikalt valitud õlide, taimede ja eeterlike õlidega. Meie seebid ei 
+                        sisalda kunstlikke lõhna-, värv- või säilitusaineid, mis võivad nahka ärritada või 
+                        kahjustada. Meie seebid sobivad kõigile nahatüüpidele, ka tundlikule ja probleemsele 
+                        nahale. Meie veebipoest leiate erinevaid seepe, alates klassikalistest lavendli- ja 
+                        roosiseepidest kuni eksootiliste sandlipuu- ja ylang-ylangiseepideni. Me pakume ka 
+                        eritellimusel valmistatud seepe, mida saate ise oma soovide järgi kujundada. Meie 
+                        eesmärk on rahuldada iga kliendi individuaalseid vajadusi ja soove. Me oleme uhked 
+                        oma toodete kvaliteedi ja teeninduse üle ning loodame, et meie seebid toovad teie 
+                        ellu rohkem ilu ja rõõmu. (Meist osa kekst on kenereeritud Bing lõigu generaatoriga)
                     </div>
-                    <div class="col-lg-6">
-                    <!-- TODO! --->
-                        <h4>Sisentge endaandmed</h4>
-                        <form>
-                            <div class="mb-3">
-                                <label for="nimi" class="form-label">Nimi</label>
-                                <input type="text" class="form-control" id="nimi" placeholder="Sisesta nimi">
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">E-mail</label>
-                                <input type="email" class="form-control" id="email" placeholder="Sisesta e-mail">
-                            </div>
-                            <div class="mb-3">
-                                <label for="telefon" class="form-label">Telefon</label>
-                                <input type="tel" class="form-control" id="telefon" placeholder="Sisesta telefon">
-                            </div>  
-                            <div class="mb-3">
-                                <label for="riik" class="form-label">Riik</label>
-                                <input type="text" class="form-control" id="riik" placeholder="Sisesta riik">
-                            </div>
-                            <div class="mb-3">
-                                <label for="linn" class="form-label">Linn</label>
-                                <input type="text" class="form-control" id="linn" placeholder="Sisesta linn">
-                            </div>
-                            <div class="mb-3">
-                                <label for="aadress" class="form-label">Aadress</label>
-                                <input type="text" class="form-control" id="aadress" placeholder="Sisesta aadress">
-                            </div>
-                            <div class="mb-3">
-                                <label for="posti indeks" class="form-label">Posti indeks</label>
-                                <input type="text" class="form-control" id="posti indeks" placeholder="Sisesta posti indeks">
-                            </div>
-
-                            <hr>
-                            <h6>Vali makse viis:</h6>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="swedbank" name="flexRadioDefault">
-                               <label for="swedbank" class="form-check-label">Swedbank</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="LHV" name="flexRadioDefault">
-                                <label for="LHV" class="form-check-label">LHV</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="luminor" name="flexRadioDefault">
-                                <label for="luminor" class="form-check-label">Luminor</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="coop pank" name="flexRadioDefault">
-                                <label for="coop pank" class="form-check-label">Coop pank</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="SEB" name="flexRadioDefault">
-                                <label for="SEB" class="form-check-label">SEB</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="paypal" name="flexRadioDefault">
-                                <label for="paypal" class="form-check-label">PayPal</label>
-                            </div>
-
-                            <hr>
-                            <h6>Vali tarne viis:</h6>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="pakiautomaat" name="flexRadioDefault">
-                                <label for="pakiautomaat" class="form-check-label">Pakiautomaat</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="kuller" name="flexRadioDefault">
-                                <label for="kuller" class="form-check-label">Kuller</label>
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" id="tulen ise jarele" name="flexRadioDefault">
-                                <label for="tulen ise jarele" class="form-check-label">Tulen ise järele</label>
-                            </div>
-
-                        </form>
-
-                    </div>           
-                </div>   
+                </div>
+                <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-success" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-warning" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-info" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-light" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
             </div>
+
+            <hr>
+            
+            <h3 class="h mb-3">Kust meie ettevõtte pärit on?</h3>
+            <div class="container text-center">
+                <div class="card shadow-sm border-0 h-100 text-center">
+                    <a href="#"><img src="img/tartu.png" alt="#" class="card-img-top"></a> 
+                </div> 
+
+                <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-success" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-warning" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-info" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <div class="spinner-grow text-light" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col">
+                        Mei ettevõtte asub Tartus, kus meil on ka oma pood. Meie poes saate tutvuda
+                        meie toodetega ja valida endale sobivaima. Meie poes on ka võimalik tellida
+                        eritellimusel valmistatud seepe. Meie poe aadress on: Tartu, Vabaduse pst 1.
+                    </div>
+                </div>           
+            </div>
+
+             
+
+
+
+
+           
         </section>
+
         <!-- jalus -->
         <footer class="bg-light">
             <div class="container-fluid">
